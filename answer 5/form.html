@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="#">
+      <label for="firstName">First Name:
+        <input type="text" name="firstName" id="firstName" placeholder="Anthony" minlength="3" maxlength="30" required>
+      </label>
+      <br>
+      <label for="lastName">Last Name:
+        <input type="text" name="lastName" id="lastName" placeholder="Gonsalves" minlength="3" maxlength="25" required>
+      </label>
+      <br>
+      <label for="email">Email:
+        <input type="email" name="email" id="email" placeholder="anthony@gmail.com" minlength="3" required>
+      </label>
+      <br>
+      <label for="password">Password:
+        <input type="password" name="password" id="password" placeholder="*******" minlength="7" maxlength="17" required>
+      </label>
+      <br>
+      <label for="confirmPassword">Confirm Password:
+        <input type="password" name="confirmPassword" id="confirmPassword" placeholder="*******" minlength="7" maxlength="17" required>
+      </label>
+      <br>
+      <label for="age">Age:
+        <input type="number" name="age" id="age" placeholder="20" min="0" max="150" required>
+      </label>
+      <br>
+      <label for="">Gender:
+        <input type="radio" name="gender" id="male" value="male" checked>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" id="others" value="others">
+        <label for="others">Others</label>
+      </label>
+      <br>
+      <label for="terms">
+        <input type="checkbox" name="terms" id="terms" required> Agree to Terms and Conditions.
+      </label>
+      <br>
+      <button type="submit">Submit Form</button>
+
+    </form>
+  </body>
+</html>
